@@ -15,6 +15,7 @@ import tiktoken
 import nltk
 # Try to download using nltk.download
 nltk.download('punkt')
+nltk.download('punkt_tab')
 from bs4 import BeautifulSoup
 
 punkt_dir = os.path.join(nltk.data.path[0], 'tokenizers/punkt')
